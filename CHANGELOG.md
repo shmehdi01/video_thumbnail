@@ -1,3 +1,28 @@
+## 0.5.6
+* Actually add the namespace fix for Android
+* Bump to 0.5.6
+## 0.5.5
+* Thank blissfulsaint(Brandon Lisonbee) for:
+ - Add namespace fix for Android
+* Bump to 0.5.5
+## 0.5.3
+* Thanks Ajb Coder for:
+  -   Fix: IOException on runtime
+  -   Fix: IOException
+  -   Added IOException to catch with RuntimeException
+  -   Update dart min sdk to 2.16.0
+  -   Upgrade the android compileSdkVersion to 33
+* Bump to 0.5.3
+
+## 0.5.2
+* Revert the IOException change which causes compiling error on new Android Studio
+* Bump to 0.5.2
+
+## 0.5.1
+* Add IOException for Android (Thanks k1zerX)
+* Fix boolean value issue and enlarge the time window (Thanks niketatjombay) 
+* Bump to 0.5.1
+
 ## 0.5.0
 
 * Make the `thumbnailFile` to save image in the cache folder if the `path` is `null` for not file based video
